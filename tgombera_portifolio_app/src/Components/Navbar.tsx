@@ -1,8 +1,28 @@
+import MobileMenu from "./MobileMenu";
+import { useRef, useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { useState } from "react";
+
 function Navbar() {
   const navItems = ["Home", "About", "Projects"];
   const [selectedIndex, setSelectedIndex] = useState(-1);
+  const [visibleNavbar, setVisibleNavbar] = useState(false);
+  const location = useLocation();
+
+  const navRef = useRef<HTMLButtonElement>(null);
+
+  const showNavbar = () => {
+    navRef.current?.classList.toggle("open");
+    setVisibleNavbar(!visibleNavbar);
+  };
+
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const storedIndex = searchParams.get("selectedIndex");
+    if (storedIndex !== null) {
+      setSelectedIndex(parseInt(storedIndex));
+    }
+  }, [location.search]);
+
   return (
     <header className="bg-body py-6 sticky top-0">
       <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
@@ -32,7 +52,8 @@ function Navbar() {
           </a>
         </ul>
         <button
-          id="menu-btn"
+          ref={navRef}
+          onClick={showNavbar}
           className="block hamburger md:hidden focus:outline-none"
         >
           <span className="hamburger-top"></span>
@@ -40,6 +61,8 @@ function Navbar() {
           <span className="hamburger-bottom"></span>
         </button>
       </div>
+      {/* Mobile Menu */}
+      {visibleNavbar && <MobileMenu />}
     </header>
   );
 }
