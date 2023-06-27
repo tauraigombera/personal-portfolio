@@ -1,3 +1,4 @@
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 function Navbar() {
   const navItems = ["Home", "About", "Projects"];
@@ -15,7 +16,7 @@ function Navbar() {
                 setSelectedIndex(index);
               }}
             >
-              <li
+              <Link
                 to={
                   navItem === "Home"
                     ? "/"
@@ -23,7 +24,7 @@ function Navbar() {
                 }
               >
                 {navItem}
-              </li>
+              </Link>
             </li>
           ))}
           <a href="#hire">
@@ -39,36 +40,6 @@ function Navbar() {
           <span className="hamburger-bottom"></span>
         </button>
       </div>
-
-      {/* <div>
-        <ul
-          id="menu"
-          className="hidden pb-6 relative text-white container mx-auto px-6 md:hidden"
-        >
-          <li>
-            <a href="#" className="block py-2 px-4 text-selected-text">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#about" className="block py-2 px-4">
-              About
-            </a>
-          </li>
-
-          <li>
-            <a href="#projects" className="block py-2 px-4">
-              Project
-            </a>
-          </li>
-
-          <li>
-            <a href="#hire" className="block py-2 px-4">
-              Hire Me
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </header>
   );
 }
