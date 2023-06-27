@@ -26,7 +26,9 @@ function Navbar() {
   return (
     <header className="bg-body py-6 sticky top-0">
       <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-        <div className="text-2xl">Taurai Gombera</div>
+        <div className="text-2xl">
+          <Link to="/">Taurai Gombera</Link>
+        </div>
         <ul className="hidden md:flex space-x-12 items-centre">
           {navItems.map((navItem, index) => (
             <li
