@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
-  const navItems = ["Home", "About", "Projects", "Blog"];
+  const navItems = ["Projects", "Blog", "Contact"];
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const [visibleNavbar, setVisibleNavbar] = useState(false);
   const location = useLocation();
