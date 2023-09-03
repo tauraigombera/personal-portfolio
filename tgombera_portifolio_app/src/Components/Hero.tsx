@@ -37,7 +37,7 @@ function Hero() {
           </div>
         </div>
         <img
-          src="img/tau.png"
+          src="profile.png"
           alt="Man"
           className="w-3/4 mt-12 md:absolute md:mt-0 right-0 -z-1"
         />

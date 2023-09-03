@@ -26,18 +26,18 @@ function Navbar() {
   return (
     <header className="bg-primary py-6 sticky top-0">
       <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-        <section className="flex gap-3">
-          <div>
-            <img
-              src="profile.png"
-              alt="Avatar"
-              className="w-10 h-10 rounded-full"
-            />
-          </div>
-          <div className="text-2xl font-medium">
-            <Link to="/">Taurai Gombera</Link>
-          </div>
-        </section>
+        <Link to="/">
+          <section className="flex gap-3">
+            <div>
+              <img
+                src="profile.png"
+                alt="Avatar"
+                className="w-10 h-10 rounded-full"
+              />
+            </div>
+            <div className="text-2xl font-medium">Taurai Gombera</div>
+          </section>
+        </Link>
 
         <ul className="hidden md:flex space-x-12 items-centre">
           {navItems.map((navItem, index) => (
