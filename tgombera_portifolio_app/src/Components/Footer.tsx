@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="bg-primary">
-      <div className="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full p-4 md:flex md:items-center md:justify-between">
+      <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full p-4 md:flex md:items-center md:justify-between">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023
           <a href="" className="hover:underline">

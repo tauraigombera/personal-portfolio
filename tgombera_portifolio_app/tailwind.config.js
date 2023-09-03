@@ -8,6 +8,7 @@ export default {
         primary: "#030712",
         "selected-text": "#A3A3FF",
         theme: "#4f46e5",
+        gray: "#e5e7eb",
         nav: "#404053",
         secondary: "#9191A4",
         "input-border": "#565666",
