@@ -26,10 +26,10 @@ function Navbar() {
   return (
     <header className="bg-primary py-6 sticky top-0">
       <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-        <section className="flex gap-6">
+        <section className="flex gap-3">
           <div>
             <img
-              src="img/tau.png"
+              src="profile.png"
               alt="Avatar"
               className="w-10 h-10 rounded-full"
             />
