@@ -24,7 +24,7 @@ function Navbar() {
   }, [location.search]);
 
   return (
-    <header className="bg-body py-6 sticky top-0">
+    <header className="bg-primary py-6 sticky top-0">
       <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <div className="text-2xl">
           <Link to="/">Taurai Gombera</Link>

@@ -4,12 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        body: "#17171F",
+        body: "#111827",
+        primary: "#030712",
         "selected-text": "#A3A3FF",
-        theme: "#F25050",
+        theme: "#4f46e5",
         nav: "#404053",
         secondary: "#9191A4",
-        badge: "#3F3F51",
         "input-border": "#565666",
         input: "#2A2A35",
       },
