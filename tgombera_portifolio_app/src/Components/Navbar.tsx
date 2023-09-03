@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
-  const navItems = ["Home", "About", "Projects"];
+  const navItems = ["Home", "About", "Projects", "Blog"];
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const [visibleNavbar, setVisibleNavbar] = useState(false);
   const location = useLocation();
@@ -26,9 +26,19 @@ function Navbar() {
   return (
     <header className="bg-primary py-6 sticky top-0">
       <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-        <div className="text-2xl">
-          <Link to="/">Taurai Gombera</Link>
-        </div>
+        <section className="flex gap-6">
+          <div>
+            <img
+              src="img/tau.png"
+              alt="Avatar"
+              className="w-10 h-10 rounded-full"
+            />
+          </div>
+          <div className="text-2xl font-medium">
+            <Link to="/">Taurai Gombera</Link>
+          </div>
+        </section>
+
         <ul className="hidden md:flex space-x-12 items-centre">
           {navItems.map((navItem, index) => (
             <li
