@@ -59,9 +59,6 @@ function Navbar() {
               </Link>
             </li>
           ))}
-          <a href="#hire">
-            <button className="px-6 py-2 bg-theme font-bold">Hire me</button>
-          </a>
         </ul>
         <button
           ref={navRef}

@@ -7,8 +7,13 @@ function Hero() {
             Exceptional Software
             <br /> Solutions with <span className="text-theme"> .NET </span>
           </h1>
+          <p className="mt-12">
+            Hi, I'm Taurai Gombera, a .NET Software Developer based in Blantyre,
+            Malawi. I craft digital solutions that streamline processes and
+            enhance user experiences.
+          </p>
           <div className="w-full flex justify-center md:justify-start">
-            <button className="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+            <button className="px-8 py-4 bg-theme rounded text-white font-bold mt-12 flex items-center space-x-3">
               <div>
                 <svg
                   width="22"
