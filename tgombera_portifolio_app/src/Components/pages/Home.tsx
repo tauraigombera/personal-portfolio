@@ -1,8 +1,8 @@
 import Navbar from "../Navbar";
 import Hero from "../Hero";
 import Projects from "./Projects";
-import Hire from "./Hire";
 import Skills from "../Skills";
+import Footer from "../Footer";
 function Home() {
   return (
     <div>
@@ -10,7 +10,7 @@ function Home() {
       <Hero />
       <Skills />
       <Projects />
-      <Hire />
+      <Footer />
     </div>
   );
 }

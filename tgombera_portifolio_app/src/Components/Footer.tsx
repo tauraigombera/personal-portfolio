@@ -1,25 +1,16 @@
-function Hire() {
+function Footer() {
   return (
-    <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-      <section className="w-full">
-        <h2 id="hire" className="secondary-title">
-          Hire me
-        </h2>
-        <p className="section-paragraph">
-          Like my work? Reach out to me through any method below.
-        </p>
-
-        <div className="mt-12">
-          <p className="text-secondary">+265 888 70 11 10</p>
-          <a
-            href="mailto:tauraigombera@gmail.com"
-            className="text-secondary underline mt-3 block"
-          >
-            tauraigombera@gmail.com
+    <footer className="bg-primary">
+      <div className="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full p-4 md:flex md:items-center md:justify-between">
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          © 2023
+          <a href="" className="hover:underline">
+            Taurai Gombera
           </a>
-
-          <div className="flex mt-20 space-x-6">
-            <a href="#">
+        </span>
+        <ul className="flex flex-wrap items-center mt-3 gap-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li>
+            <a href="https://github.com/tauraigombera">
               <svg
                 className="w-8 h-8 lg:w-12 lg:h-12"
                 width="22"
@@ -36,8 +27,9 @@ function Hire() {
                 />
               </svg>
             </a>
-
-            <a href="#">
+          </li>
+          <li>
+            <a href="https://twitter.com/taurai_gombera">
               <svg
                 className="w-8 h-8 lg:w-12 lg:h-12"
                 width="42"
@@ -52,8 +44,9 @@ function Hire() {
                 />
               </svg>
             </a>
-
-            <a href="#">
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tauraigombera/">
               <svg
                 className="w-8 h-8 lg:w-12 lg:h-12"
                 width="24"
@@ -68,11 +61,11 @@ function Hire() {
                 />
               </svg>
             </a>
-          </div>
-        </div>
-      </section>
-    </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
   );
 }
 
-export default Hire;
+export default Footer;
