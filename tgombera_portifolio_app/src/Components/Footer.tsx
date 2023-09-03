@@ -8,11 +8,11 @@ function Footer() {
             Taurai Gombera
           </a>
         </span>
-        <ul className="flex flex-wrap items-center mt-3 gap-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <ul className="flex flex-wrap items-center mt-3 gap-6 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
             <a href="https://github.com/tauraigombera">
               <svg
-                className="w-8 h-8 lg:w-10 lg:h-10"
+                className="w-4 h-4 lg:w-6 lg:h-6"
                 width="22"
                 height="20"
                 viewBox="0 0 22 20"
@@ -31,7 +31,7 @@ function Footer() {
           <li>
             <a href="https://twitter.com/taurai_gombera">
               <svg
-                className="w-8 h-8 lg:w-10 lg:h-10"
+                className="w-4 h-4 lg:w-6 lg:h-6"
                 width="42"
                 height="42"
                 viewBox="0 0 42 42"
@@ -48,7 +48,7 @@ function Footer() {
           <li>
             <a href="https://www.linkedin.com/in/tauraigombera/">
               <svg
-                className="w-8 h-8 lg:w-10 lg:h-10"
+                className="w-4 h-4 lg:w-6 lg:h-6"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
