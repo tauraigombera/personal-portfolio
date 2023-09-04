@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="container flex justify-between items-center mx-auto px-8 mt-16 md:px-14 lg:px-24 w-full">
+    <section className="container min-h-screen flex justify-between items-center mx-auto px-8 mt-16 md:mt-0 md:px-14 lg:px-24 w-full">
       <div className="flex flex-wrap md:flex-nowrap">
         <div className="flex flex-wrap justify-center md:justify-start max-w-xl mt-0 md:my-36">
           <h1 className="font-bold text-5xl text-center md:text-left">

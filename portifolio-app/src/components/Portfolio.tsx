@@ -28,9 +28,9 @@ function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="container mx-auto bg-gray px-8 md:px-14 lg:px-24 w-full"
+      className="container mx-auto min-h-screen bg-gray px-8 md:px-14 lg:px-24 w-full"
     >
-      <h2 className="text-3xl text-primary pt-16 font-semibold mb-8">
+      <h2 className="text-3xl text-center text-primary pt-32 font-semibold mb-8">
         My Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-16">
