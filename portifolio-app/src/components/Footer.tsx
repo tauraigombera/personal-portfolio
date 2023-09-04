@@ -2,13 +2,10 @@ function Footer() {
   return (
     <footer className="bg-primary">
       <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full p-4 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2023
-          <a href="" className="hover:underline">
-            Taurai Gombera
-          </a>
+        <span className="text-sm text-gray-500 sm:text-center">
+          &copy; {new Date().getFullYear()} Taurai Gombera
         </span>
-        <ul className="flex flex-wrap items-center mt-3 gap-6 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <ul className="flex flex-wrap items-center mt-3 gap-6 text-sm font-medium text-gray-500 sm:mt-0">
           <li>
             <a href="https://github.com/tauraigombera">
               <svg
