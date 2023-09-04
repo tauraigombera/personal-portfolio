@@ -26,7 +26,10 @@ function Portfolio() {
   ];
 
   return (
-    <section className="container mx-auto bg-gray px-8 md:px-14 lg:px-24 w-full">
+    <section
+      id="portfolio"
+      className="container mx-auto bg-gray px-8 md:px-14 lg:px-24 w-full"
+    >
       <h2 className="text-3xl text-primary pt-16 font-semibold mb-8">
         My Projects
       </h2>

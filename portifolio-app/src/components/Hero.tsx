@@ -13,7 +13,10 @@ function Hero() {
             enhance user experiences.
           </p>
           <div className="w-full flex justify-center md:justify-start">
-            <button className="px-8 py-4 bg-theme rounded text-white font-bold mt-12 flex items-center space-x-3">
+            <a
+              href="#portfolio"
+              className="px-8 py-4 bg-theme rounded text-white font-bold mt-12 flex items-center space-x-3"
+            >
               <div>
                 <svg
                   width="22"
@@ -33,7 +36,7 @@ function Hero() {
                 </svg>
               </div>
               <span>My Projects.</span>
-            </button>
+            </a>
           </div>
         </div>
         <img
