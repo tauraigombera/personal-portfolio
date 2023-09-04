@@ -40,7 +40,7 @@ function Hero() {
           </div>
         </div>
         <img
-          src="profile.png"
+          src="hero-img.png"
           alt="Avatar"
           className="w-3/4 mt-12 md:absolute md:mt-0 right-0 -z-1"
         />
