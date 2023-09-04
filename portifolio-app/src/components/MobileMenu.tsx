@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 const MobileMenu = () => {
-  const navItems = ["Home", "About", "Projects"];
+  const navItems = ["Projects", "Blog", "Contact"];
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const location = useLocation();
 

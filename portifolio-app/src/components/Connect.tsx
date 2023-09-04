@@ -1,7 +1,7 @@
 function Connect() {
   return (
-    <section className="container mx-auto bg-theme px-8 md:px-14 lg:px-24 w-full">
-      <h2 className="flex justify-center text-3xl font-semibold mb-8 pt-16">
+    <section className="container mx-auto min-h-screen bg-theme px-8 md:px-14 lg:px-24 w-full">
+      <h2 className="flex justify-center text-3xl font-semibold mb-8 pt-64">
         Let's Connect
       </h2>
       <p className="flex justify-center mb-8">

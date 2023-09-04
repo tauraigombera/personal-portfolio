@@ -1,19 +1,22 @@
 function Hero() {
   return (
-    <section className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+    <section className="container min-h-screen flex justify-between items-center mx-auto px-8 mt-16 md:mt-0 md:px-14 lg:px-24 w-full">
       <div className="flex flex-wrap md:flex-nowrap">
         <div className="flex flex-wrap justify-center md:justify-start max-w-xl mt-0 md:my-36">
           <h1 className="font-bold text-5xl text-center md:text-left">
             Exceptional Software
             <br /> Solutions with <span className="text-theme"> .NET </span>
           </h1>
-          <p className="mt-12">
+          <p className="mt-12 text-center md:text-left">
             Hi, I'm Taurai Gombera, a .NET Software Developer based in Blantyre,
             Malawi. I craft digital solutions that streamline processes and
             enhance user experiences.
           </p>
           <div className="w-full flex justify-center md:justify-start">
-            <button className="px-8 py-4 bg-theme rounded text-white font-bold mt-12 flex items-center space-x-3">
+            <a
+              href="#portfolio"
+              className="px-8 py-4 bg-theme rounded text-white font-bold mt-12 flex items-center space-x-3"
+            >
               <div>
                 <svg
                   width="22"
@@ -33,12 +36,12 @@ function Hero() {
                 </svg>
               </div>
               <span>My Projects.</span>
-            </button>
+            </a>
           </div>
         </div>
         <img
-          src="profile.png"
-          alt="Man"
+          src="hero-img.png"
+          alt="Avatar"
           className="w-3/4 mt-12 md:absolute md:mt-0 right-0 -z-1"
         />
       </div>
