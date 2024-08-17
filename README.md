@@ -14,7 +14,7 @@ This is my personal portfolio website showcasing my software development project
 1. Clone the repository:
 
    ```bash
-   https://github.com/tauraigombera/personal-portfolio.git
+   git clone https://github.com/tauraigombera/personal-portfolio.git
    ```
 
 2. Navigate to the project folder
