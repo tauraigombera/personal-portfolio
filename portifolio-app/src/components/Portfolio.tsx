@@ -9,10 +9,11 @@ function Portfolio() {
       codeLink: "https://github.com/tauraigombera/charity-donations",
     },
     {
-      title: "Project 2",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      imageUrl: "project.jpg",
-      demoLink: "#",
+      title: "Cyberflames Website",
+      description:
+        "A website build with ReactJs for a cybersecurity non-profit known as Cyberflames.",
+      imageUrl: "project2.jpg",
+      demoLink: "https://www.cyberflames.org/",
       codeLink: "#",
     },
     {
